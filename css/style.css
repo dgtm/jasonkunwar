@@ -453,10 +453,10 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/artist3.png') right bottom no-repeat;
+	background: url('../img/artistquality1.jpg') right bottom no-repeat;
 	background-size: contain;
 	height:auto;
-	background-color: #FBFBFB;
+	background-color: darkslategrey;
 }
 .hero h1 {
 	font-size: 120px;
@@ -577,13 +577,26 @@ h1.arrow span {
 	-o-background-size:cover;
 	background-size:cover;
 }
+.about2{
+  background-color: ivory;
+}
+.about2 h6{
+  font-size: 1.5em;
+}
+.about2 p{
+  color: black;
+  font-family: 'Ropa Sans';
+  font-size: 1.2em;
+}
 .color-bg {
-
-	background: #596;
+	background: #566;
 }
 
 .color-bg a {
     color: #FFE800;
+}
+.color-bg h6 {
+  font-size: 1.5em;
 }
 .color-bg h6, .color-bg p {
     color: white;
@@ -599,6 +612,10 @@ h1.arrow span {
   background: #FFF;
   color: #E04343;
   border-color: rgba(0, 0, 0, 0);
+}
+.color-bg p{
+  font-family: 'Ropa Sans';
+  font-size: 1.2em;
 }
 .about-text {
 	padding:20px 50px 25px 50px;
@@ -1221,6 +1238,14 @@ ul.slides li {
 	}
 }
 
+
+#about{
+  font-family: 'Ropa Sans';
+}
+
+#about p{
+  font-size: 1.25em;
+}
 
 @media screen and (max-width:991px) {
 	.hero {
