@@ -24,9 +24,6 @@
 /* ==========================================================================
 	Global Styles
 ========================================================================== */
-* {
-  font-family: Open Sans',sans-serif;
-}
 a {
 	color: #E04343;
 	-webkit-transition:all 0.5s;
@@ -286,7 +283,8 @@ table {
 }
 /* ==========================================================================Section Styles========================================================================== */
 .section-padding {
-	padding:90px 0 100px
+	padding:55px 0 34px;
+  background-color: #fff;
 }
 .dark-bg {
 	background:#f3f5f8;
@@ -560,6 +558,12 @@ table {
 .intro p {
 	margin:50px 0 0;
 }
+#service{
+  background-color: #2C2D2B;
+}
+.upcoming .up{
+  color: #fff;
+}
 h1.arrow {
 	font-size: 16px;
 	text-transform:uppercase;
@@ -579,6 +583,9 @@ h1.arrow span {
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 10px;
 }
 .about2{
   background-color: ivory;
@@ -593,6 +600,7 @@ h1.arrow span {
 }
 .color-bg {
 	background: #566;
+  font-family: 'Ropa Sans';
 }
 
 .color-bg a {
@@ -937,17 +945,19 @@ ul.social-buttons li {
 	display:inline-block;
 	margin-right:10px;
 }
+
 ul.social-buttons li:last-child {
 	margin-right:0;
 }
 .social-btn {
-	width:40px;
-	height:40px;
-	background: #E04343;
+	width:100px;
+	height:100px;
+  padding-top: 10px;
+	background: #566;
 	display:inline-block;
 	color:#fff;
-	font-size:17px;
-	line-height:40px;
+	font-size:80px;
+	line-height:10px;
 	text-align:center;
 }
 .social-btn:hover,.social-btn:focus {
