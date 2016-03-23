@@ -1260,6 +1260,43 @@ ul.slides li {
   font-size: 1.25em;
 }
 
+.details-menu{
+  width: 100%;
+  height: 50px;
+}
+.menu-items{
+  font-size: 1.5em!important;
+  border: none;
+  width: 20%;
+  margin-left: 5%;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  /*color: #000!important;*/
+  /*height: 40px;*/
+}
+.about-text h6:hover{
+  color: #000;
+  cursor: pointer;
+}
+.about-text h6{
+  color: #FFE800;
+}
+.about-text p{
+  height: 300px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.menu-items:hover{
+  color: #000;
+}
+.details-menu > .menu-items:first-child{
+  margin-left: 0%;
+}
+.menu-items i{
+  padding-right: 10px;
+}
+
 @media screen and (max-width:991px) {
 	.hero {
     	padding: 0px;
