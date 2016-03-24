@@ -1282,10 +1282,12 @@ ul.slides li {
 .about-text h6{
   color: #FFE800;
 }
-.about-text p{
-  height: 300px;
+.about-text div{
+  height: 330px;
   margin-bottom: 30px;
   overflow: hidden;
+  color: white;
+  font-size: 1.3em;
 }
 .menu-items:hover{
   color: #000;
@@ -1293,10 +1295,37 @@ ul.slides li {
 .details-menu > .menu-items:first-child{
   margin-left: 0%;
 }
+.details-menu{
+  height: 30px!important;
+}
 .menu-items i{
   padding-right: 10px;
 }
-
+@font-face {
+  font-family: Kantipur;
+  src: url('../assets/kantipur.ttf');
+}
+#about-lyrics{
+  font-family: kantipur;
+  overflow-y: scroll;
+  font-size: 1.5em;
+  padding-left: 10px;
+  /*background-color: #efefef;*/
+  font-family: kantipur;
+  font-weight: bolder;
+}
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+#barood{
+  margin: 1.1em 0 !important;
+}
 @media screen and (max-width:991px) {
 	.hero {
     	padding: 0px;
